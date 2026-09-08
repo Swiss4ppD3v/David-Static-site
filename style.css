@@ -1,3 +1,116 @@
-h1 {
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 10655px;
+}
+
+header {
     font-family: 'Merriweather', serif;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: calc(1920px - 380px);
+    height: 84px;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8px;
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-bottom: 8px;
+    box-shadow: 0px 8px 20px 5px rgba(0, 0, 0, 0.08);
+    background-color: white;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo1 {
+    width: 54.87px;
+    height: 59.69px;
+    object-fit: contain;
+}
+
+.Zebb {
+    font-weight: 700;
+    color: #FF5678;
+    font-size: 28px;
+    line-height: 1;
+}
+
+.links {
+    width: 702px;
+    height: 68px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+}
+
+.bar {
+    width: 457px;
+    height: 28px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+}
+
+.links a {
+    color: #020E35;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.link-home {
+    border-bottom: 4px solid #FF5678;
+    padding-bottom: 4px;
+    height: 28px;
+    width: 52px;
+}
+
+.link-about {
+    width: 57px;
+    height: 28px;
+}
+
+.link-services {
+    width: 79px;
+    height: 20px;
+}
+
+.link-contact {
+    background-color: #020E35;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    border: none;
+    width: 185px;
+    height: 68px;
+    gap: 4px;
+    padding-top: 24px;
+    padding-right: 40px;
+    padding-bottom: 24px;
+    padding-left: 40px;
+}
+
+.contact-text {
+    height: 20px;
+    width: 105px;
+    letter-spacing: 0;
+    font-weight: 700;
+    color: white;
+    font-size: 16px;
+    line-height: 20px;
+
+
 }
