@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="eng">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Static Site</title>
+    <title>Zebb</title>
     <link rel="stylesheet" href="style.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
@@ -12,37 +12,39 @@
 </head>
 
 <body>
-    <header>
+    <nav>
         <div class="logo">
-            <img class="logo1" src="assets/Header.png" alt="Logo">
-            <h1 class="Zebb">Zebb</h1>
+            <img src="assets/Header.png" alt="Logo">
         </div>
-        <nav class="links">
-            <div class="bar">
-                <a class="link" href="index.html">
-                    <span class="link-home">HOME</span>
-                </a>
-                <a class="link" href="#about">
-                    <span class="link-about">ABOUT</span>
-                </a>
-                <a class="link" href="#services">
-                    <span class="link-services">SERVICES</span>
-                </a>
-                <a class="link" href="#our-work">
-                    <span class="link-our-work">OUR WORK</span>
-                </a>
-            </div>
-            <button class="link-contact">
-                <span class="contact-text">
-                    <strong>
-                        CONTACT US
-                    </strong>
-                </span>
-            </button>
+        <div class="links">
+            <a href="index.html">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#services">SERVICES</a>
+            <a href="#work">OUR WORK</a>
+            <button href="#">CONTACT US</button>
+        </div>
+    </nav>
 
-
-        </nav>
+    <header>
+        <main>
+            <section class="hero-section">
+                <div class="hero-text">
+                    <div>
+                        <h1>We help to Create
+                            <span class="brands">
+                                Brands
+                            </span>
+                            With Coffee
+                        </h1>
+                    </div>
+                    <button class="button">See our work</button>
+                </div>
+                <img class="coffee" src="assets/Hero.jpg" alt="Image d'un verre de café">
+            </section>
+        </main>
     </header>
+
+
 </body>
 
 </html>
