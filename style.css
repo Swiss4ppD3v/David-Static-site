@@ -5,11 +5,6 @@
     font-family: 'Merriweather';
 }
 
-body {
-
-    font-size: 16px;
-}
-
 nav {
     display: flex;
     align-items: center;
@@ -23,7 +18,7 @@ nav {
 
 .logo img {
     height: 41px;
-    width: 127.86875915527344px;
+    max-width: 127.86875915527344px;
 }
 
 .links {
@@ -54,16 +49,12 @@ nav {
     padding: 12px 30px;
     font-size: 16px;
     font-weight: 600;
-    cursor: pointer;
-    width: 185;
     padding-top: 24px;
     padding-right: 40px;
     padding-bottom: 24px;
     padding-left: 40px;
     gap: 4px;
-
 }
-
 
 /* Hero section */
 header {
@@ -78,13 +69,13 @@ header {
     justify-content: space-between;
     padding-top: 300px;
     padding-bottom: 200px;
+    line-height: 110px;
 }
 
 .hero-text {
     width: 548px;
     height: 457px;
-    line-height: 110px;
-    letter-spacing: 0%;
+
     gap: 56px;
 }
 
@@ -93,45 +84,31 @@ h1 {
     height: 330px;
     font-weight: 900;
     font-size: 76px;
-    line-height: 110px;
-    letter-spacing: 0%;
 
 }
 
-.hero-text>button {
-    box-shadow: 0px 20px 40px 5px #00000040;
-}
-
-.brands {
+#brands {
     color: white;
     background-color: #FF5678;
+    display: inline-block;
+    line-height: 1;
 }
 
 .button {
     width: 197px;
     height: 71px;
-    padding-top: 24px;
-    padding-right: 40px;
-    padding-bottom: 24px;
-    padding-left: 40px;
-    gap: 4px;
+    padding: 24px 40px;
     background-color: #020E35;
     color: white;
     border: none;
     font-size: 18px;
     font-weight: 700;
     line-height: 23px;
+    box-shadow: 0px 20px 40px 5px #00000040;
 }
 
 .coffee {
     height: 508px;
     width: 592px;
     border-radius: 200px;
-    padding: 4px;
 }
-
-.hero-section>img {
-    margin: 4px;
-}
-
-/* Powered by section */
