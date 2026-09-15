@@ -59,6 +59,7 @@ nav {
 /* Hero section */
 header {
     padding: 0px 150px;
+
 }
 
 .hero-section {
@@ -117,9 +118,8 @@ h1 {
 .Powered-by {
     display: flex;
     height: 708px;
-    top: 1092.03px;
+
     justify-content: space-between;
-    align-items: center;
     padding-top: 100px;
     padding-bottom: 100px;
     font-size: 18px;
@@ -147,7 +147,7 @@ h1 {
 }
 
 .talent-txt {
-    font-weight: 400;
+    width: 428px;
     line-height: 23px;
     margin-bottom: 16px;
     width: 100%;
@@ -168,11 +168,8 @@ h1 {
 .talent {
     width: 423px;
     height: 29px;
-    background: linear-gradient(to bottom,
-            transparent 0%,
-            transparent 60%,
-            #FF5678 60%,
-            #FF5678 100%);
+    background: linear-gradient(to bottom, transparent 0%, transparent 60%, #FF5678 60%, #FF5678 100%);
+    padding-right: 10px;
 }
 
 .watch {
@@ -185,4 +182,10 @@ h1 {
 .powered-images {
     display: flex;
     gap: 60px;
+}
+
+.powered-img {
+    height: 508px;
+    width: 592px;
+    border-radius: 500px;
 }
