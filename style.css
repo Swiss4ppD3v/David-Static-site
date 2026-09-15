@@ -76,7 +76,6 @@ header {
 .hero-text {
     width: 548px;
     height: 457px;
-
     gap: 56px;
 }
 
@@ -192,6 +191,7 @@ h1 {
 
 /* Things we enjoy */
 .things-we-enjoy {
+    height: 792px;
     padding-top: 100px;
     padding-bottom: 100px;
     display: flex;
@@ -278,4 +278,52 @@ h1 {
     background-color: #FFEEF6;
     border-radius: 1000px;
     z-index: -1;
+}
+
+/* Crafting Experience */
+
+.craft-exp {
+    height: 870px;
+    top: 2592.06px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.crafting {
+    width: 664px;
+    padding-top: 100px;
+}
+
+.craft {
+    width: 664px;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 72px;
+    letter-spacing: 1%;
+    height: 216px;
+}
+
+.craft-p {
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    width: 481px;
+
+}
+
+.craft-img {
+    width: 780px;
+    height: 670px;
+    border-radius: 1000px;
+}
+
+.craft-text {
+    display: flex;
+    flex-direction: column;
+    width: 664px;
+    gap: 60px;
 }
