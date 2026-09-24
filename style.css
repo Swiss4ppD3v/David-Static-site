@@ -81,6 +81,7 @@ h1 {
 
 #brands {
     line-height: 1;
+    padding: 0px;
 }
 
 .button {
@@ -408,4 +409,128 @@ h1 {
 .square6 {
     grid-column: 3;
     grid-row: 2 / 4;
+}
+
+/*Testimonial section*/
+.Testimonial {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    height: 1280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+
+.test-title {
+    width: 369px;
+    height: 128px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+.test-h {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 72px;
+}
+
+.test-p {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+}
+
+.test-cards {
+    width: 2236px;
+    gap: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.test-card {
+    display: flex;
+    flex-direction: column;
+    width: 412px;
+    height: 555px;
+    border-radius: 150px;
+    padding: 60px 40px;
+    gap: 46px;
+    align-items: center;
+    border: 1px solid #949494;
+}
+
+.test-first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    width: 253px;
+    height: 340px;
+}
+
+
+.star {
+    width: 206px;
+    height: 27px;
+    display: flex;
+    gap: 16px;
+}
+
+.avatar-test {
+    background-color: #FFEEF6;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.test-text {
+    text-align: center;
+    width: 253px;
+    height: 115px;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.test-info {
+    width: 380px;
+    height: 49px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.name-test {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+#main-test {
+    width: 460px;
+    height: 672px;
+    justify-content: center;
+}
+
+#main-text {
+    width: 380px;
+    height: 92px;
+}
+
+.left-right {
+    width: 1620px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left,
+.right {
+    border: none;
+    background-color: transparent;
+    width: 80px;
+    height: 80px;
 }
