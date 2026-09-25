@@ -534,3 +534,93 @@ h1 {
     width: 80px;
     height: 80px;
 }
+
+/* Section contact us */
+.contact-us {
+    height: 1104px;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-text {
+    width: 656px;
+    height: 904px;
+    gap: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact {
+    width: 527px;
+    height: 144px;
+}
+
+.contact-title {
+    width: 527px;
+    height: 144px;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 72px;
+}
+
+.input-msgs {
+    width: 656px;
+    height: 660px;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-under-title {
+    width: 656px;
+    height: 113px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    width: 656px;
+    height: 70px;
+    gap: 4px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border-width: 1px;
+    padding: 4px;
+}
+
+#Message {
+    width: 656px;
+    height: 200px;
+}
+
+#message-inp {
+    width: 656px;
+    height: 243px;
+}
+
+.round {
+    width: 780px;
+    height: 670px;
+    border-radius: 1000px;
+    background: #FFEEF6;
+}
+
+input {
+    background: #FFEEF6;
+    border: 1px solid #020E35
+}
+
+legend {
+    height: 23px;
+}
+
+.msg {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}
