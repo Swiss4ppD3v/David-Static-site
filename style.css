@@ -48,7 +48,8 @@ nav {
 }
 
 /* Hero section */
-header {
+header,
+main {
     padding: 0px 150px;
 }
 
@@ -620,4 +621,35 @@ legend {
     font-weight: 400;
     font-size: 18px;
     line-height: 23px;
+}
+
+/* Newsletters section */
+.Newsletters {
+    height: 870px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.newsletters-text {
+    width: 656px;
+    height: 621px;
+    gap: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.news {
+    width: 656px;
+    height: 144px;
+}
+
+.news-title {
+    width: 609px;
+    height: 144px;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 72px;
+    letter-spacing: 3%;
 }
