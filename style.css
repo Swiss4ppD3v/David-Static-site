@@ -585,9 +585,6 @@ h1 {
 .input {
     width: 656px;
     height: 70px;
-    gap: 4px;
-    display: flex;
-    flex-direction: column;
     border-radius: 10px;
     border-width: 1px;
     padding: 4px;
@@ -610,7 +607,7 @@ h1 {
     background: #FFEEF6;
 }
 
-input {
+.input {
     background: #FFEEF6;
     border: 1px solid #020E35
 }
