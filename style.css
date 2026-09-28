@@ -5,6 +5,64 @@
     font-family: 'Merriweather';
 }
 
+/*groups*/
+.powered-text,
+.craft-text,
+.box-container {
+    gap: 60px;
+    display: flex;
+    flex-direction: column
+}
+
+.Powered-by,
+.craft-exp,
+.Newsletters {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-text,
+.info-box {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.cookie,
+.privacy {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.test-p,
+.card-name {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+}
+
+.icons,
+.first-box {
+    gap: 40px;
+    display: flex;
+}
+
+.name-test,
+.msg,
+.talent-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.newsletters-text,
+.contact-text {
+    gap: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
 /* Navigation bar*/
 nav {
     display: flex;
@@ -13,11 +71,6 @@ nav {
     box-shadow: 0px 8px 20px 5px rgba(0, 0, 0, 0.08);
     height: 84px;
     align-items: center;
-}
-
-.logo img {
-    height: 41px;
-    max-width: 128px;
 }
 
 .links {
@@ -48,14 +101,13 @@ nav {
 }
 
 /* Hero section */
-header,
-main {
-    padding: 0px 150px;
+
+section {
+    padding: 100px 150px;
 }
 
 .hero-section {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     padding-top: 300px;
     padding-bottom: 200px;
@@ -64,8 +116,6 @@ main {
 
 .hero-text {
     width: 548px;
-    height: 457px;
-    gap: 56px;
 }
 
 h1 {
@@ -98,27 +148,23 @@ h1 {
 
 .coffee {
     border-radius: 200px;
+    width: 592px;
+    height: 508px;
+}
+
+.card-text,
+.test-first {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    text-align: center;
 }
 
 /* Powered by section */
-.Powered-by {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
 .powered-img {
     height: 508px;
     width: 592px;
     border-radius: 500px;
-}
-
-.powered-text {
-    gap: 60px;
-    width: 517px;
-    display: flex;
-    flex-direction: column;
 }
 
 .power {
@@ -131,24 +177,14 @@ h1 {
     margin-bottom: 42px;
 }
 
-.talent {
-    height: 29px;
-    background: linear-gradient(to bottom, transparent 0%, transparent 60%, #FF5678 60%, #FF5678 100%);
+.title-red {
+    background: linear-gradient(to bottom, transparent 0%, transparent 60%, #FF5678 0%, #FF5678 100%);
     padding-right: 10px;
 }
 
 .talent-txt {
     font-size: 18px;
-    line-height: 23px;
     margin-bottom: 16px;
-}
-
-.talent-text {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 23px;
-    width: 100%;
 }
 
 .powered-images {
@@ -165,8 +201,6 @@ h1 {
 
 /* Things we enjoy */
 .things-we-enjoy {
-    padding-top: 100px;
-    padding-bottom: 100px;
     display: flex;
     position: relative;
 }
@@ -196,32 +230,11 @@ h1 {
     line-height: 62px;
 }
 
-.title-red {
-    background: linear-gradient(to bottom, transparent 0%, transparent 60%, #FF5678 0%, #FF5678 100%);
-    padding-right: 10px;
-}
-
-.box-container {
-    display: flex;
-    flex-direction: column;
-    gap: 60px;
-}
-
-.first-box {
-    gap: 40px;
-    display: flex;
-}
-
 .number {
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1px #020E35;
     font-size: 64px;
     line-height: 72px;
-    width: 70px;
-}
-
-.box-text {
-    width: 421px;
 }
 
 .box-title {
@@ -229,6 +242,7 @@ h1 {
 }
 
 .box-paragraph {
+    width: 421px;
     padding-top: 20px;
     font-size: 18px;
 }
@@ -238,28 +252,11 @@ h1 {
 }
 
 /* Crafting Experience */
-.craft-exp {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.craft-text {
-    display: flex;
-    flex-direction: column;
-    gap: 60px;
-}
-
-.crafting {
-    padding-top: 100px;
-}
-
-.craft {
-    width: 664px;
-    font-weight: 700;
+.craft-title {
     font-size: 54px;
     line-height: 72px;
+    width: 664px;
+    font-weight: 700;
     letter-spacing: 1px;
 }
 
@@ -267,7 +264,6 @@ h1 {
     font-size: 18px;
     line-height: 32px;
     width: 481px;
-
 }
 
 .craft-img {
@@ -278,27 +274,24 @@ h1 {
 
 /* Meet the team*/
 .meet-the-team {
-    padding-top: 100px;
-    padding-bottom: 100px;
     gap: 104px;
     display: flex;
     flex-direction: column;
 }
 
-.meet-text {
+.meet-title {
     text-align: center;
     font-size: 54px;
     line-height: 72px;
 }
 
 .meet-cards {
-    align-items: center;
     display: flex;
     gap: 51px;
     flex-direction: column;
 }
 
-.line-1 {
+.line-break {
     height: 519px;
     display: grid;
     grid-template-columns: 519px 519px 519px;
@@ -328,17 +321,7 @@ h1 {
 }
 
 .card-text {
-    display: flex;
-    flex-direction: column;
     width: 235px;
-    gap: 24px;
-    text-align: center;
-}
-
-.card-name {
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 36px;
 }
 
 .card-role {
@@ -353,8 +336,6 @@ h1 {
 
 /* Our previous work section */
 .previous-work {
-    padding-top: 100px;
-    padding-bottom: 100px;
     gap: 60px;
     display: flex;
     flex-direction: column;
@@ -372,8 +353,6 @@ h1 {
 }
 
 .grid {
-    height: 1376px;
-    width: 1620px;
     gap: 32px;
     display: grid;
     grid-template-rows: 396.5px 243.5px 121px 519px;
@@ -414,16 +393,13 @@ h1 {
 
 /*Testimonial section*/
 .Testimonial {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    height: 1280px;
+    gap: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 100px;
 }
 
-.test-title {
+.test-box {
     width: 369px;
     height: 128px;
     display: flex;
@@ -432,23 +408,15 @@ h1 {
     text-align: center;
 }
 
-.test-h {
+.test-title {
     font-weight: 700;
     font-size: 54px;
     line-height: 72px;
 }
 
-.test-p {
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 36px;
-}
-
 .test-cards {
-    width: 2236px;
     gap: 32px;
     display: flex;
-    flex-direction: row;
     align-items: center;
 }
 
@@ -471,14 +439,6 @@ h1 {
     gap: 24px;
     width: 253px;
     height: 340px;
-}
-
-
-.star {
-    width: 206px;
-    height: 27px;
-    display: flex;
-    gap: 16px;
 }
 
 .avatar-test {
@@ -505,12 +465,6 @@ h1 {
     gap: 6px;
 }
 
-.name-test {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 23px;
-}
-
 #main-test {
     width: 460px;
     height: 672px;
@@ -532,31 +486,13 @@ h1 {
 .right {
     border: none;
     background-color: transparent;
-    width: 80px;
-    height: 80px;
 }
 
 /* Section contact us */
 .contact-us {
-    height: 1104px;
     justify-content: space-between;
-    padding-bottom: 100px;
-    padding-top: 100px;
     display: flex;
     align-items: center;
-}
-
-.contact-text {
-    width: 656px;
-    height: 904px;
-    gap: 100px;
-    display: flex;
-    flex-direction: column;
-}
-
-.contact {
-    width: 527px;
-    height: 144px;
 }
 
 .contact-title {
@@ -567,38 +503,35 @@ h1 {
     line-height: 72px;
 }
 
-.input-msgs {
+.contact-text {
     width: 656px;
-    height: 660px;
+    height: 904px;
+}
+
+.contact-box {
+    display: flex;
+    flex-direction: column;
     gap: 40px;
-    display: flex;
-    flex-direction: column;
 }
 
-.contact-under-title {
-    width: 656px;
-    height: 113px;
+.input-box {
+    display: flex;
+    flex-direction: column;
     gap: 20px;
-    display: flex;
-    flex-direction: column;
 }
 
-.input {
+input {
     width: 656px;
     height: 70px;
     border-radius: 10px;
     border-width: 1px;
     padding: 4px;
+    background: #FFEEF6;
+    border: 1px solid #020E35
 }
 
 #Message {
-    width: 656px;
     height: 200px;
-}
-
-#message-inp {
-    width: 656px;
-    height: 243px;
 }
 
 .round {
@@ -608,55 +541,22 @@ h1 {
     background: #FFEEF6;
 }
 
-.input {
-    background: #FFEEF6;
-    border: 1px solid #020E35
-}
-
 legend {
     height: 23px;
 }
 
-.msg {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 23px;
-}
-
 /* Newsletters section */
-.Newsletters {
-    height: 870px;
-    display: flex;
-    justify-content: space-between;
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-.newsletters-text {
-    width: 656px;
-    height: 621px;
-    gap: 100px;
-    display: flex;
-    flex-direction: column;
-}
-
-.news {
-    width: 656px;
-    height: 144px;
-}
-
 .news-title {
     width: 609px;
     height: 144px;
     font-weight: 700;
     font-size: 54px;
     line-height: 72px;
-    letter-spacing: 3%;
+    letter-spacing: 2px;
 }
 
 /* Section footer*/
-
-.foot {
+footer {
     display: flex;
     gap: 60px;
     padding-top: 100px;
@@ -665,29 +565,16 @@ legend {
     z-index: 0
 }
 
-.align {
+.foot {
     padding-right: 150px;
     padding-left: 150px;
     display: flex;
     justify-content: space-between;
-
 }
 
-.footer-text {
-    display: flex;
-    flex-direction: column;
-    gap: 17px;
-}
-
-#frame {
+#media-box {
     display: flex;
     gap: 32px;
-}
-
-.icons {
-    gap: 40px;
-    display: flex;
-    flex-direction: row;
 }
 
 .icons img {
@@ -708,8 +595,7 @@ legend {
     width: 65px;
 }
 
-.infos {
-    width: 105px;
+.numero {
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
@@ -719,13 +605,7 @@ legend {
     width: 148px;
 }
 
-.info-box {
-    gap: 17px;
-    display: flex;
-    flex-direction: column;
-}
-
-.info-box .link {
+.info-box .main-link {
     color: black;
     font-weight: 700;
     font-size: 20px;
@@ -734,7 +614,7 @@ legend {
     text-decoration: none;
 }
 
-.info-text {
+.sub-links {
     color: black;
     gap: 16px;
     display: flex;
@@ -743,14 +623,10 @@ legend {
     text-decoration: none;
 }
 
-
 .bottom {
     display: flex;
     justify-content: space-between;
-    padding-top: 32px;
-    padding-right: 150px;
-    padding-bottom: 32px;
-    padding-left: 150px;
+    padding: 32px 150px;
     background: #020E35;
     color: white;
 }
@@ -766,25 +642,7 @@ legend {
     gap: 60px;
 }
 
-.cookie,
-.privacy {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
-}
-
-
-.footer-round {
-    padding-top: 4px;
-    padding-bottom: 4px;
-    padding-left: 4px;
-    gap: 4px;
-    border-radius: 1000px;
-    background: #FFEEF6;
-}
-
-.cercle {
-    display: inline-block;
+.cercles {
     position: absolute;
     width: 609px;
     height: 524px;
